@@ -1,0 +1,22 @@
+<div class="content">
+    <div *ngIf="pointsOfInterest && pointsOfInterest.length > 0">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th>#</th> 
+                <th>Name</th> 
+                <th>X</th> 
+                <th>Y</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let poi of pointsOfInterest; let poiIndex = index;">
+                    <td>{{poiIndex + 1}}</td>
+                    <td>{{poi.name}}</td>
+                    <td>{{poi.x}}</td>
+                    <td>{{poi.y}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

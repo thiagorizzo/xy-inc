@@ -1,0 +1,15 @@
+<form>
+  <div class="form-group">
+      <div class="form-group">
+          <label>Name</label>
+          <input class="form-control" type="text" name="dmax" [(ngModel)]="pointOfInterest.name"/>
+      </div>      
+    <label>X</label>
+    <input class="form-control" type="number" name="x" [(ngModel)]="pointOfInterest.x" required/>
+  </div>
+  <div class="form-group">
+      <label>Y</label>
+      <input class="form-control" type="number" name="y" [(ngModel)]="pointOfInterest.y" required/>
+  </div>
+  <button class="btn btn-primary" (click)="registerPointOfInterest()">Register</button>
+</form>

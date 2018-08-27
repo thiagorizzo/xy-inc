@@ -1,0 +1,4 @@
+{
+    "restUrl" : "http://localhost:8080",
+    "pointOfInterestListUrl" : "/pointsofinterest"
+}
