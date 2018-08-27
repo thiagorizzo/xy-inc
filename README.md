@@ -26,7 +26,7 @@
 
 - O servidor executará na porta 8080, portanto essa porta deve estar livre para que o servidor possa subir.
 
-## Executar projeto WEB (Angular)
+## Executar Frontend Web (Angular)
 
 - No prompt de comando, executar na sequência:
 	
@@ -45,7 +45,7 @@
 	
 	http://localhost:4200/
 
-- Ao abrir a URL, será apresenta uma página que contém 3 abas:
+- Ao abrir a URL, será apresentada uma página que contém 3 abas:
 
   1) List (Lista todos pontos de interesse)
   2) Nearby (Busca pontos de interesse a partir de um ponto de referência e uma distância)
