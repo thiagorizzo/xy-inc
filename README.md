@@ -34,8 +34,8 @@
 	2) npm install
   3) ng serve --port 4200
 
-- Após iniciar o projeto web, o site estará executando na porta :4200, é importante que essa porta seja utilizada, pois há configuração de CORS para que tal endereço e porta no servidor. 
-- É possível acessar o front-end no navegador através da URL:
+- Após iniciar o projeto web, o site estará executando na porta :4200, é importante que essa porta seja utilizada, pois há configuração de CORS para tal socket no servidor. 
+- Agora é possível acessar o front-end no navegador através da URL:
 	
 	http://localhost:4200/
 
