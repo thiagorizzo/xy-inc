@@ -30,7 +30,7 @@
 
 - No prompt de comando, executar na sequência:
 	
-	1) cd [caminho da pasta contendo o projeto clonado]\xy-inc\web
+	1) cd [caminho da pasta contendo o projeto clonado]\xy-inc\src\web
 	2) npm install
   3) ng serve --port 4200
 
