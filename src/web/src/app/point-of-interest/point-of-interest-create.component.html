@@ -11,5 +11,5 @@
       <label>Y</label>
       <input class="form-control" type="number" name="y" [(ngModel)]="pointOfInterest.y" required/>
   </div>
-  <button class="btn btn-primary" (click)="registerPointOfInterest()">Register</button>
+  <button class="btn btn-primary" (click)="registerPointOfInterest($event)">Register</button>
 </form>

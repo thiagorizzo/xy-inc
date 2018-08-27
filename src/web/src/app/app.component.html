@@ -1,8 +1,8 @@
 
 <div class="container">
     <tabset type="pills">
-        <tab heading="List"><app-point-of-interest-list></app-point-of-interest-list></tab>
+        <tab heading="List"><app-point-of-interest-list [event]="createdEvent"></app-point-of-interest-list></tab>
         <tab heading="Nearby"><app-point-of-interest-nearby-list></app-point-of-interest-nearby-list></tab>
-        <tab heading="Register"><app-point-of-interest-create></app-point-of-interest-create></tab>
+        <tab heading="Register"><app-point-of-interest-create (pointOfInterestCreatedEvent)="childCreatedEvent($event)"></app-point-of-interest-create></tab>
     </tabset>
 </div>
