@@ -21,7 +21,7 @@
 
 - No prompt de comando, executar na sequência:
 	
-	1) cd [caminho da pasta contendo o projeto clonado]\target
+	1) cd [caminho da pasta contendo o projeto clonado]\xy-inc\target
 	2) java -jar PoiProject-0.0.1-SNAPSHOT.jar
 
 - O servidor executará na porta 8080, portanto essa porta deve estar livre para que o servidor possa subir.
@@ -30,7 +30,7 @@
 
 - No prompt de comando, executar na sequência:
 	
-	1) cd [caminho da pasta contendo o projeto clonado]\web
+	1) cd [caminho da pasta contendo o projeto clonado]\xy-inc\web
 	2) npm install
   3) ng serve --port 4200
 
