@@ -32,7 +32,13 @@
 	
 	1) cd [caminho da pasta contendo o projeto clonado]\xy-inc\src\web
 	2) npm install
-  3) ng serve --port 4200
+	
+		Instalar Angular CLI
+	3) npm install @angular/cli -g
+	
+		Colocar a pasta do npm na variável de ambiente PATH: 
+	4) SET PATH=%PATH%;%APPDATA%\npm 
+  	5) ng serve --port 4200
 
 - Após iniciar o projeto web, o site estará executando na porta :4200, é importante que essa porta seja utilizada, pois há configuração de CORS para tal socket no servidor. 
 - Agora é possível acessar o front-end no navegador através da URL:
